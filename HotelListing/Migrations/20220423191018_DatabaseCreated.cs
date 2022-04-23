@@ -60,6 +60,11 @@ namespace HotelListing.Migrations
             migrationBuilder.InsertData(
                 table: "Hotels",
                 columns: new[] { "ID", "Address", "FKCountryID", "Name", "Rating" },
+                values: new object[] { 1, "Motorogi Conservancy Masai Mara, Kenya", 3, "Mahali Mzuri", 4.7999999999999998 });
+
+            migrationBuilder.InsertData(
+                table: "Hotels",
+                columns: new[] { "ID", "Address", "FKCountryID", "Name", "Rating" },
                 values: new object[] { 2, "Lloys Ellis Ave, Houghton Estate, Johannesburg, 2198", 1, "The Houghton Hotel", 4.7000000000000002 });
 
             migrationBuilder.InsertData(
@@ -67,10 +72,31 @@ namespace HotelListing.Migrations
                 columns: new[] { "ID", "Address", "FKCountryID", "Name", "Rating" },
                 values: new object[] { 3, "1380 Av. Julius Nyerere, Maputo, Mozambique", 2, "Polana Serena Hotel", 4.5999999999999996 });
 
+
             migrationBuilder.InsertData(
                 table: "Hotels",
                 columns: new[] { "ID", "Address", "FKCountryID", "Name", "Rating" },
-                values: new object[] { 1, "Motorogi Conservancy Masai Mara, Kenya", 3, "Mahali Mzuri", 4.7999999999999998 });
+                values: new object[] { 4, "Sun City, Rustenburg, 0316", 1, "The Palace of the Lost City", 4.5999999999999998 });
+
+            migrationBuilder.InsertData(
+                table: "Hotels",
+                columns: new[] { "ID", "Address", "FKCountryID", "Name", "Rating" },
+                values: new object[] { 5, "QH34+X92, Mecufi Road, Mecúfi 3200, Mozambique", 2, "Diamonds Mequfi Beach Resort", 4.5999999999999998 });
+
+            migrationBuilder.InsertData(
+                table: "Hotels",
+                columns: new[] { "ID", "Address", "FKCountryID", "Name", "Rating" },
+                values: new object[] { 6, "Madikwe Hills Private Game Lodge Madikwe Game Reserve Madikwe Game Reserve, 2865", 1, "Madikwe Hills Private Game Lodge", 4.9999999999999998 });
+
+            migrationBuilder.InsertData(
+                table: "Hotels",
+                columns: new[] { "ID", "Address", "FKCountryID", "Name", "Rating" },
+                values: new object[] { 7, "Chiromo Rd, Nairobi, Kenya", 3, "Villa Rosa Kempinski", 4.6999999999999998 });
+
+            migrationBuilder.InsertData(
+                table: "Hotels",
+                columns: new[] { "ID", "Address", "FKCountryID", "Name", "Rating" },
+                 values: new object[] { 8, "141 Av. Marginal, Maputo 1100, Mozambique", 2, "Radisson Blu Hotel & Residence", 4.4999999999999998 });
 
             migrationBuilder.CreateIndex(
                 name: "IX_Hotels_FKCountryID",
